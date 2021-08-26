@@ -1,12 +1,17 @@
 # Restaurant_management_system
 
-Requirements
+Requirement
+    
+[get-pip.zip](https://github.com/7Har/Restaurant_management_system/files/6250009/get-pip.zip)
 
-    pip install django
-    
-    pip install django_admin_rangefilter
-    
-    pip3 install pycryptodome
+
+    python get-pip.py
+
+    py -m pip install django
+
+    pip install pycryptodome
+
+    pip install django-admin-rangefilter
     
     python -m pip install Pillow    
 
