@@ -1,0 +1,84 @@
+.dashboard #content-main {
+    float: left;
+    width: 182%;
+}
+.dashboard #content-related {
+    float: right;
+    width: 317px;
+    position: relative;
+    margin-right: -328px;
+}
+.login {
+    background: #a25757d9 !important;
+}
+.login #header {
+    background: #aa1713;
+}
+#header h1 {
+    font-size: 19px !important;
+    color: #ffff00;
+    font-weight: bold;
+}
+img {
+    margin-right: 8px;
+}
+input[type="submit"] {
+    background: #0455ff;
+}
+form#login-form {
+    font-weight: bold;
+}
+.module caption {
+    background: #354750;
+    padding: 11px;
+    font-weight: bold;
+}
+#content-related .module h2 {
+    font-weight: bold;
+    background: darkgrey;
+    color: #000;
+}
+.content h1 {
+    font-weight: bold;
+}
+#user-tools {
+    font-weight: bold;
+    font-size: 13px;
+}
+body.dashboard {
+    background: #d3d3d3;
+}
+th {
+    padding: 10px;
+}
+div.breadcrumbs {
+    background: #b80f0f;
+    font-weight: bold;
+}
+nav#nav-sidebar {
+    margin-top: 10px;
+}
+
+button#toggle-nav-sidebar {
+    background: cadetblue;
+    color: #000000;
+    font-size: 24px;
+}
+#changelist table thead th {
+    background: burlywood;
+    font-family: cursive;
+    padding: 4px !important;
+    font-size: 12px !important;
+}
+table thead th .text a, table thead th .text span {
+    color:black;
+}
+.app-auth .content tr:nth-child(odd), .app-shop .content tr:nth-child(odd) {
+    background: #ffe5e5;
+}
+.app-auth .content tr:nth-child(even), .app-shop .content tr:nth-child(even) {
+    background: #ececec;
+}
+.object-tools a.addlink {
+    background-color: blue;
+}

@@ -1,0 +1,16 @@
+{% extends 'admin/base.html' %}
+{%load static%}
+{% block branding %}
+
+<h1 id="head">
+  <a href="http://127.0.0.1:8000/admin"><img src="http://127.0.0.1:8000/media/shop/images/logo.png" width="35" height="35" /></a>
+  The Food Mania
+</h1>
+
+{% endblock %}
+
+{% block extrastyle%}
+
+<link rel="stylesheet" href="{% static 'shop/assets/css/adminstyle.css'%}" />
+
+{%endblock %}
